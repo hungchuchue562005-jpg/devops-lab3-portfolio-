@@ -26,7 +26,7 @@ resource "aws_instance" "lab_server" {
 # ----- 3. Tạo Security Group (tường lửa) -----
 resource "aws_security_group" "lab_sg" {
   name        = "lab3-terraform-sg"
-  description = "Security Group cho Lab 3 - Cho phép SSH + HTTP"
+  description = "Security Group cho Lab 3 - Cho phep SSH + HTTP"
 
   # Cho phép SSH
   ingress {

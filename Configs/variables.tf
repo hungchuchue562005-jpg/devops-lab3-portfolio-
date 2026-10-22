@@ -19,7 +19,7 @@ variable "instance_type" {
 variable "ami_id" {
   description = "AMI ID cho Amazon Linux 2023 (us-east-1)"
   type        = string
-  default     = "ami-0c7217cdff66f2296"   # Amazon Linux 2023 AMI
+  default     = "ami-0c7217cdff66f2296" # Amazon Linux 2023 AMI
 }
 
 variable "key_name" {

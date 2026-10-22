@@ -4,4 +4,14 @@ dist/
 *.log
 .DS_Store
 
+# Terraform local artifacts and private keys
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+*.pem
+*.key
+
 
